@@ -301,7 +301,7 @@ onUnmounted(() => {
       <!-- Submit-button -->
       <v-row>
         <v-col :cols="12">
-          <v-btn @click="validForm" class="submit-btn">Submit</v-btn>
+          <v-btn @click="validForm" class="submit-btn" style="height:3.6875rem">Submit</v-btn>
         </v-col>
       </v-row>
     </v-form>
@@ -384,7 +384,6 @@ p {
 .submit-btn {
   background-color: hsl(169, 82%, 27%);
   width: 100%;
-  height: 3.6875rem;
   border-radius: 8px;
   color: hsl(0, 0%, 100%);
 }
