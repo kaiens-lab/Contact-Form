@@ -137,7 +137,7 @@ onUnmounted(() => {
           <v-text-field
             v-model="firstName"
             color="hsl(169, 82%, 27%)"
-            base-color="hsl(170, 80%, 27%)"
+            base-color="hsl(186, 15%, 59%)"
             variant="outlined"
             density="comfortable"
             required
@@ -155,7 +155,7 @@ onUnmounted(() => {
             v-model="lastName"
             variant="outlined"
             color="hsl(169, 82%, 27%)"
-            base-color="hsl(170, 80%, 27%)"
+            base-color="hsl(186, 15%, 59%)"
             density="comfortable"
 
             required
@@ -174,7 +174,7 @@ onUnmounted(() => {
           </v-label>
           <v-text-field
             color="hsl(169, 82%, 27%)"
-            base-color="hsl(170, 80%, 27%)"
+            base-color="hsl(187, 24%, 22%)"
             v-model="emailAddress"
             variant="outlined"
             density="comfortable"
@@ -324,8 +324,8 @@ onUnmounted(() => {
 
 
 .radio-area {
-  border: 1px solid hsl(186, 15%, 59%);
-  border-radius: 8px;
+  border: 1px solid hsl(186, 15%, 59%, 0.5);
+  border-radius: 4px;
   height: 51px;
   display: flex;
   align-items: center;
