@@ -137,7 +137,7 @@ onUnmounted(() => {
           <v-text-field
             v-model="firstName"
             color="hsl(169, 82%, 27%)"
-            base-color="hsl(186, 15%, 59%)"
+            base-color="hsl(187, 24%, 22%)"
             variant="outlined"
             density="comfortable"
             required
@@ -155,7 +155,7 @@ onUnmounted(() => {
             v-model="lastName"
             variant="outlined"
             color="hsl(169, 82%, 27%)"
-            base-color="hsl(186, 15%, 59%)"
+            base-color="hsl(187, 24%, 22%)"
             density="comfortable"
 
             required
