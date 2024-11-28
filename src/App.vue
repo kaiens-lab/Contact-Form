@@ -311,6 +311,7 @@ onUnmounted(() => {
 <style>
 .title {
   font-size: 2rem;
+  color:hsl(187, 24%, 22%)
 }
 
 .v-text-field {
